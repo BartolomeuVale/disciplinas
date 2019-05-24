@@ -6,7 +6,7 @@ euler.shape("turtle")
 
 current = 0   # Here's how we know where we are
 seen = set()  # Here's where we'll keep track of where we've been
-
+euler.speed("fastest")
 # Step increases by 1 each time
 for step_size in range(1, 100):
     

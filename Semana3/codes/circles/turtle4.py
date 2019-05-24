@@ -10,7 +10,7 @@ scale = 5  # This isn't a turtle module setting.  This is just for us.
 euler.penup()
 euler.setpos(-390, 0)
 euler.pendown()
-
+euler.speed("fastest")
 current = 0   # Here's how we know where we are
 seen = set()  # Here's where we'll keep track of where we've been
 
