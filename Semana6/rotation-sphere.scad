@@ -1,0 +1,1 @@
+rotate([0,0,$t*360]) translate([50,0,0]) sphere(10);
