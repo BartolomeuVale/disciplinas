@@ -1,0 +1,20 @@
+1. a) Criar o banco de dados PAISES, copiar o script de criação das tabelas e a inserção dos dados. 
+b)Criar uma tabela chamada 'CountryEnglishPopulation' com a seguinte descriçao:
+
+CountryEnglishPopulation
+	CountryCode (Foreign Key - Reference to Country)
+	Name
+	Percentage
+
+Preencher a informação das tabelas com o respetivo Quary sobre os países que falam inglês. (2 pontos)
+
+2. Quais são os países que falam "Spanish" e "Portuguese'? (2 pontos)
+
+3. Encontrar as linguagens que são faladas em pelo menos 3 diferentes países com mais de 50% de porcentagem.  Retornar o nome da linguagem e o números de países que falam essa lingua. Ordenar por número de países que falam a lingua. (2 pontos)
+
+4. a) A qual país e distrito pertence as cidade "Lages" (1 ponto)
+   b) A qual país e distrito pertence as cidade "Giron"? (1 pontos)
+
+5. Encontrar a cidade com a máxima população de cada país, e para países sem cidade retornar NULL. Retornar o nome do país e número máximo de cada cidade. Ordenar por nome do país de forma ascendente. (2 pontos)
+
+

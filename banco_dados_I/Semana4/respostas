@@ -1,0 +1,22 @@
+i.
+Temp1 = π pnome Empregado
+Temp2 = π dep_nome Dependente
+Temp1 ⨯ Temp2
+
+j.
+Temp1 = π pnome, RG Empregado
+Temp2 = π dep_nome, empRG Dependente
+Temp3 = Temp1 ⨝  RG=empRG Temp2
+π pnome, dep_nome Temp3
+
+k.
+Temp1 = π pnome,RG, supRG Empregado
+σ RG = supRG Temp1
+
+l.
+Temp1 = π localizacao, dnum Localizacao
+Temp2 = π dnum Departamento
+Temp3 = Temp1 ⨝ Temp2
+Temp3
+
+m.
